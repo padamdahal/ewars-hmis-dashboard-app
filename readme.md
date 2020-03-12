@@ -2,7 +2,7 @@
 
 This app was initially designed to display a static dashboard of Early Warning Reporting System (EWARS) in DHIS2 based national Health Management Information System (HMIS).
 
-## Code explanation
+## Code
 ### index.html
 ```html 
 <html lang="en">
