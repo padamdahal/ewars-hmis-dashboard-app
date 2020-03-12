@@ -30,8 +30,8 @@ $.getJSON('manifest.webapp').done(manifest => {
     appKey = appKey.substr(0, appKey.indexOf('/'));
     
     // EWARS portal URL - Update when necessary
-    var portalUrl = "https://myehr.dns-cloud.net/index.html"; // to display when accessed directly
-    var portalUrlDashboard = "https://myehr.dns-cloud.net/hmis-dashboard.html"; // to display when accessed from dashboard
+    var portalUrl = "https://URL"; // to display when accessed directly
+    var portalUrlDashboard = "https://URL"; // to display when accessed from dashboard
     
     // Get the dashboardItemId query parameter from the URL
     var dashboardItemId = (/[?&]dashboardItemId=([a-zA-Z0-9]{11})(?:&|$)/g.exec(window.location.search) || [undefined]).pop();
