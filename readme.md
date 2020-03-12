@@ -53,3 +53,4 @@ $.getJSON('manifest.webapp').done(manifest => {
 	console.warn('Failed to get manifest:', error);
 });
 ```
+The parameters ouLevel, ouName and ouId are handelled by EWARS portal to filter the data based on the logged in user.
